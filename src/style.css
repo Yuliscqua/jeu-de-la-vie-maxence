@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #1C2541;
+}
+
+h1 {
+  text-align: center;
+  color: #f5f7fa;
+  margin-bottom: 30px;
+}
+
+.components {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  border-top: black solid;
+  background-color: #f5f7fa;
+  padding: 20px;
+}
+
+.grid {
+  display: grid;
+  justify-content: center;
+  gap: 0;
+  z-index: -1;
+  margin-bottom: 100px;
+}
+
+.column {
+  width: 2rem;
+  height: 2rem;
+  border: white;
+}
+
+.isAlive {
+  color: black;
+  background: black;
+}
+
+.isDead {
+  color: #f5f7fa;
+  background: #f5f7fa;
+}
+
+.btn {
+  padding: 6px 12px;
+  border-radius: 15px;
+  border: none;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px black;
+}
+
+.start-btn {
+  background: #4caf50;
+}
+
+.start-btn:hover {
+  background: #45a049;
+}
+
+.stop-btn {
+  background: #ff2e00;
+}
+
+.reset-btn {
+  background: #210203;
+  color: rgba(255, 255, 255, 0.93);
+}
+
+.speed-btn {
+  background: #ffc914;
+}
+
+.height-btn {
+  background: #17bebb;
+}
