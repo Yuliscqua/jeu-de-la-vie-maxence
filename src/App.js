@@ -99,7 +99,7 @@ const Height = ({ onChange }) => {
       <option value="10">10x10</option>
       <option value="15">15x15</option>
       <option value="20">20x20</option>
-      <option value="45">45x45</option>
+      <option value="30">30x30</option>
       <option value="50">50x50</option>
       <option value="90">90x90</option>
       <option value="150">150x150</option>
